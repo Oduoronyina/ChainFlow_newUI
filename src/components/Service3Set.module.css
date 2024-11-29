@@ -1,0 +1,37 @@
+.securelyRecordingEvery {
+  position: absolute;
+  top: calc(50% - 138px);
+  left: calc(50% - 143.5px);
+  display: inline-block;
+  width: 286px;
+  height: 275px;
+}
+.property1variant2 {
+  width: 369px;
+  position: relative;
+  border-radius: var(--br-23xl);
+  height: 420px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-image: url(/public/type@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.service3 {
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-blueviolet-100);
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--neutral-colors-100);
+  font-family: var(--font-blinker);
+}

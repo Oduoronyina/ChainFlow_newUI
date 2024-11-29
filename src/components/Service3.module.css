@@ -1,0 +1,53 @@
+.icon,
+.iconRailway {
+  position: absolute;
+  margin: 0 !important;
+}
+.icon {
+  width: 92px;
+  height: 92px;
+  top: 45px;
+  left: 45px;
+  border-radius: 50%;
+  background-color: var(--neutral-colors-100);
+  z-index: 0;
+}
+.iconRailway {
+  width: 56px;
+  height: 56px;
+  top: 63px;
+  left: 63px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.blockchainBasedVerification {
+  margin: 0;
+  width: 298px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.service3 {
+  height: 420px;
+  width: 369px;
+  border-radius: var(--br-23xl);
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-191xl) var(--padding-7xl) var(--padding-17xl)
+    var(--padding-26xl);
+  box-sizing: border-box;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--modern-version-text);
+  font-family: var(--font-blinker);
+}

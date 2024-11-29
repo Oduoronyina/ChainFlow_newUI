@@ -1,0 +1,32 @@
+.inputText {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-blinker);
+  font-size: var(--text-single-400-medium-size);
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 9.5px);
+  left: 36px;
+  color: var(--color-darkgray);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.textField {
+  position: absolute;
+  top: 264px;
+  left: 74px;
+  border-radius: var(--br-61xl);
+  background-color: var(--neutral-colors-100);
+  border: 1px solid var(--modern-version-tertiary);
+  box-sizing: border-box;
+  width: 351px;
+  height: 75px;
+  overflow: hidden;
+}
+@media screen and (max-width: 1261px) {
+  .textField {
+    display: none;
+  }
+}

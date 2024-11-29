@@ -1,0 +1,32 @@
+.iconPlay {
+  width: 34px;
+  position: relative;
+  height: 34px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.watchVideo {
+  text-decoration: none;
+  height: 24px;
+  width: 115px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-blinker);
+  color: var(--modern-version-text);
+  text-align: left;
+  display: inline-block;
+}
+.button {
+  cursor: pointer;
+  border: 2px solid var(--modern-version-secondary);
+  padding: var(--padding-8xl) var(--padding-38xl);
+  background-color: var(--neutral-colors-100);
+  border-radius: var(--br-33xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-lg);
+}

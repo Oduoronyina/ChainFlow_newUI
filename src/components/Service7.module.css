@@ -1,0 +1,54 @@
+.icon,
+.iconCar {
+  position: absolute;
+  margin: 0 !important;
+}
+.icon {
+  width: 92px;
+  height: 92px;
+  top: 45px;
+  left: 45px;
+  border-radius: 50%;
+  background-color: var(--neutral-colors-100);
+  z-index: 0;
+}
+.iconCar {
+  width: 56px;
+  height: 56px;
+  top: 63px;
+  left: 63px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.centralizedDashboard {
+  margin: 0;
+  width: 270px;
+  height: 116px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.service6 {
+  height: 420px;
+  width: 369px;
+  border-radius: var(--br-23xl);
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-240xl) var(--padding-26xl) var(--padding-26xl);
+  box-sizing: border-box;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--modern-version-text);
+  font-family: var(--font-blinker);
+}

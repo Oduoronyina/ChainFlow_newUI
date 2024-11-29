@@ -1,0 +1,803 @@
+.chainflow {
+  margin: 0;
+}
+.solution {
+  color: var(--color-crimson-100);
+}
+.chainflowLogisticsSolutionContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 130px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.containerMockup22x1 {
+  height: 853px;
+  width: 1047px;
+  position: absolute;
+  margin: 0 !important;
+  right: -543px;
+  bottom: -533px;
+  object-fit: cover;
+  z-index: 1;
+}
+.chainflowLogisticsSolutionParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.getInTouch {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-blinker);
+  color: var(--neutral-colors-100);
+  text-align: left;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xl) var(--padding-42xl);
+  background-color: var(--modern-version-secondary);
+  width: 269px;
+  border-radius: var(--br-33xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.heroButtonContainer,
+.heroInnerContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.heroButtonContainer {
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+}
+.heroInnerContent {
+  flex-direction: column;
+  gap: var(--gap-28xl);
+  max-width: 100%;
+}
+.ourLogisticsCompanyContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 30px;
+}
+.heroContent,
+.heroDescription {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.heroDescription {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 111px 0 0;
+  box-sizing: border-box;
+  min-width: 328px;
+  text-align: right;
+  font-size: var(--font-size-xl);
+}
+.heroContent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.statisticsPlaceholders,
+.yearsExperience {
+  position: relative;
+  font-weight: 600;
+}
+.yearsExperience {
+  font-size: var(--font-size-xl);
+}
+.statisticsPlaceholdersParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--secondary-colors-800);
+}
+.div {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 67px;
+}
+.frameParent,
+.heroContentParent,
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  gap: var(--gap-xs);
+  font-size: var(--font-size-45xl);
+}
+.heroContentParent {
+  align-self: stretch;
+  padding: 0 0 var(--padding-6xl);
+  box-sizing: border-box;
+  gap: var(--gap-28xl);
+  max-width: 100%;
+  font-size: 128px;
+}
+.imagesIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.aForkliftCarryingAContaine,
+.image2Icon {
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.image2Icon {
+  height: 248px;
+  flex: 1;
+  border-radius: var(--br-23xl) var(--br-23xl) var(--br-11xl) var(--br-23xl);
+  max-width: 100%;
+  min-width: 200px;
+}
+.aForkliftCarryingAContaine {
+  width: 254px;
+  height: 255px;
+  border-radius: var(--br-11xl) var(--br-23xl) var(--br-23xl) var(--br-23xl);
+  flex-shrink: 0;
+}
+.forkliftImageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 333px 0 0;
+}
+.imagesParent,
+.vectorIcon {
+  position: absolute;
+  max-width: 100%;
+}
+.imagesParent {
+  top: 247px;
+  left: 72px;
+  width: 578px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+}
+.vectorIcon {
+  height: 53.46%;
+  width: 21.91%;
+  top: -23.27%;
+  right: -12.63%;
+  bottom: 69.81%;
+  left: 90.72%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.weAreAnContainer {
+  position: absolute;
+  top: 636px;
+  left: 718px;
+  line-height: 30px;
+}
+.logistics {
+  margin: 0;
+  color: var(--color-crimson-100);
+}
+.weAre1Container {
+  margin: 0;
+  position: absolute;
+  top: 328px;
+  left: 718px;
+  font-size: var(--font-size-77xl);
+  line-height: 90px;
+  font-weight: 300;
+  font-family: inherit;
+  color: var(--neutral-colors-100);
+}
+.getInTouch1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-blinker);
+  color: var(--modern-version-text);
+  text-align: left;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xl) var(--padding-42xl);
+  background-color: var(--neutral-colors-100);
+  position: absolute;
+  top: 764px;
+  left: 718px;
+  border-radius: var(--br-33xl);
+  width: 269px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.havokSoftwareLogowineIcon {
+  position: absolute;
+  top: 50px;
+  left: -28px;
+  width: 222px;
+  height: 147px;
+  overflow: hidden;
+}
+.linkedInIcon,
+.oculusVrLogowineIcon,
+.sqliteLogowineIcon {
+  position: absolute;
+  top: 50px;
+  width: 220px;
+  height: 147px;
+  overflow: hidden;
+}
+.sqliteLogowineIcon {
+  left: 786px;
+  z-index: 1;
+}
+.linkedInIcon,
+.oculusVrLogowineIcon {
+  left: 244px;
+}
+.linkedInIcon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.linkedinLogowineIcon {
+  position: absolute;
+  top: 259px;
+  left: 113px;
+  width: 220px;
+  height: 147px;
+  overflow: hidden;
+  z-index: 1;
+}
+.linkedInContainer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.linkedInContainerWrapper {
+  position: absolute;
+  top: -209px;
+  left: 943px;
+  width: 403px;
+  height: 482px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chamiloLogowineIcon,
+.samsungLogowineIcon {
+  position: absolute;
+  top: 50px;
+  left: 514px;
+  width: 222px;
+  height: 147px;
+  overflow: hidden;
+}
+.chamiloLogowineIcon {
+  left: 1326px;
+  z-index: 1;
+}
+.weAre {
+  height: 924px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-23xl);
+  background-color: var(--modern-version-secondary);
+  overflow: hidden;
+  max-width: 100%;
+}
+.weAreWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+  color: #b7b7b7;
+}
+.span {
+  color: var(--modern-version-secondary);
+}
+.everythingYouNeedContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 99px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.serviceList {
+  width: 1134px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 15px 12px;
+  max-width: 100%;
+}
+.div2 {
+  width: 45px;
+  height: 48px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.industrialParkSale {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.transportLogistics {
+  margin: 0;
+  width: 265px;
+  height: 76px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.service,
+.serviceListParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.service {
+  height: 276px;
+  width: 370px;
+  border-radius: var(--br-23xl);
+  flex-direction: column;
+  padding: var(--padding-11xl) var(--padding-34xl) var(--padding-80xl);
+  gap: var(--gap-4xl);
+  background-image: url(/public/service@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+}
+.serviceListParent {
+  flex-direction: row;
+  padding: 0 0 var(--padding-14xl);
+  gap: var(--gap-base);
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+  color: var(--neutral-colors-100);
+}
+.span1 {
+  color: var(--color-black);
+}
+.deliveryOfYourContainer {
+  margin: 0;
+  width: 484px;
+  position: relative;
+  font-size: inherit;
+  line-height: 99px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.shippingOptions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 14.7px;
+  max-width: 100%;
+}
+.deliveryOfYourPackageParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-59xl);
+  box-sizing: border-box;
+  gap: var(--gap-71xl);
+  max-width: 100%;
+  text-align: right;
+}
+.getInTouch2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 99px;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: pre-wrap;
+  display: inline-block;
+  max-width: 100%;
+}
+.div3,
+.instagram {
+  position: relative;
+  line-height: 30px;
+}
+.instagram {
+  text-align: left;
+  display: inline-block;
+  min-width: 104px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+}
+.chainflow1 {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-29xl);
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--modern-version-secondary);
+  text-align: left;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.cursorPointer {
+  width: 13.9px;
+  height: 17px;
+  position: absolute;
+  margin: 0 !important;
+  right: 173.1px;
+  bottom: 45px;
+  object-fit: cover;
+  z-index: 1;
+}
+.contactInfoRows {
+  align-self: stretch;
+  border-bottom: 1px solid var(--modern-version-text);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-41xl);
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.div4 {
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  min-width: 28px;
+}
+.email,
+.infochainflowcom {
+  position: relative;
+  text-align: left;
+}
+.email {
+  line-height: 30px;
+}
+.infochainflowcom {
+  margin: 0;
+  font-size: var(--font-size-29xl);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.contactInfoRows1,
+.contactInfoRowsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contactInfoRows1 {
+  border-bottom: 1px solid var(--modern-version-text);
+  box-sizing: border-box;
+  padding: 0 0 var(--padding-41xl);
+}
+.contactInfoRowsParent {
+  gap: var(--gap-xl);
+}
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xl) var(--padding-42xl);
+  background-color: var(--modern-version-secondary);
+  width: 269px;
+  border-radius: var(--br-33xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.contactDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-21xl);
+  min-width: 650px;
+  text-align: right;
+  font-size: var(--font-size-5xl);
+  color: var(--modern-version-text);
+}
+.contactDetails,
+.getInTouchParent,
+.mainContent {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.getInTouchParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 91px;
+  color: var(--color-black);
+}
+.mainContent {
+  flex-direction: column;
+  gap: var(--gap-71xl);
+  text-align: left;
+  font-size: var(--font-size-64xl);
+  color: var(--modern-version-text);
+  font-family: var(--font-blinker);
+}
+.home,
+.mainContent,
+.mainContentWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.mainContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-41xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.home {
+  width: 100%;
+  position: relative;
+  background-color: var(--neutral-colors-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1500px) {
+  .heroDescription,
+  .heroInnerContent {
+    flex: 1;
+  }
+  .heroContent,
+  .serviceListParent,
+  .shippingOptions {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .heroInnerContent {
+    min-width: 100%;
+  }
+  .mainContentWrapper {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .home {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 850px) {
+  .chainflowLogisticsSolutionContainer {
+    font-size: var(--font-size-32xl);
+    line-height: 78px;
+  }
+  .heroInnerContent {
+    gap: var(--gap-4xl);
+  }
+  .div,
+  .statisticsPlaceholders {
+    font-size: var(--font-size-32xl);
+  }
+  .heroContentParent {
+    gap: var(--gap-4xl);
+  }
+  .aForkliftCarryingAContaine {
+    align-self: stretch;
+    width: auto;
+  }
+  .forkliftImageContainer {
+    flex: 1;
+  }
+  .imagesParent {
+    flex-wrap: wrap;
+  }
+  .weAre1Container {
+    font-size: var(--font-size-29xl);
+    line-height: 54px;
+  }
+  .weAre {
+    height: auto;
+    min-height: 924;
+  }
+  .deliveryOfYourContainer,
+  .everythingYouNeedContainer {
+    font-size: var(--font-size-22xl);
+    line-height: 59px;
+  }
+  .deliveryOfYourPackageParent {
+    gap: var(--gap-26xl);
+    padding-bottom: 51px;
+    box-sizing: border-box;
+  }
+  .getInTouch2 {
+    font-size: var(--font-size-22xl);
+    line-height: 59px;
+  }
+  .chainflow1 {
+    font-size: var(--font-size-19xl);
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .infochainflowcom {
+    font-size: var(--font-size-19xl);
+  }
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+  .contactDetails {
+    gap: var(--gap-xl);
+    min-width: 100%;
+  }
+  .getInTouchParent,
+  .mainContent {
+    gap: var(--gap-26xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .chainflowLogisticsSolutionContainer {
+    font-size: var(--font-size-13xl);
+    line-height: 52px;
+  }
+  .ourLogisticsCompanyContainer {
+    font-size: var(--text-single-400-medium-size);
+    line-height: 24px;
+  }
+  .statisticsPlaceholders {
+    font-size: var(--font-size-19xl);
+  }
+  .yearsExperience {
+    font-size: var(--text-single-400-medium-size);
+  }
+  .div {
+    font-size: var(--font-size-19xl);
+  }
+  .weAreAnContainer {
+    font-size: var(--text-single-400-medium-size);
+    line-height: 24px;
+  }
+  .weAre1Container {
+    font-size: var(--font-size-10xl);
+    line-height: 36px;
+  }
+  .deliveryOfYourContainer,
+  .everythingYouNeedContainer {
+    font-size: var(--font-size-6xl);
+    line-height: 40px;
+  }
+  .deliveryOfYourPackageParent {
+    gap: var(--gap-3xl);
+    padding-bottom: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .getInTouch2 {
+    font-size: var(--font-size-6xl);
+    line-height: 40px;
+  }
+  .div3,
+  .instagram {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .chainflow1 {
+    font-size: var(--font-size-10xl);
+  }
+  .div4,
+  .email {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .infochainflowcom {
+    font-size: var(--font-size-10xl);
+  }
+  .getInTouchParent {
+    gap: var(--gap-4xl);
+  }
+  .mainContent {
+    gap: var(--gap-3xl);
+  }
+}

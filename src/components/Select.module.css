@@ -1,0 +1,47 @@
+.inputIconLeft {
+  width: 14px;
+  position: relative;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.inputPlaceholder {
+  position: relative;
+  line-height: 14px;
+  font-weight: 500;
+}
+.inputLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.inputIconLeft1,
+.select {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.inputIconLeft1 {
+  height: 14px;
+  width: 14px;
+  position: relative;
+}
+.select {
+  width: 128px;
+  border-radius: var(--br-31xl);
+  background-color: var(--neutral-colors-100);
+  border: 1px solid var(--neutral-colors-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-3xs)
+    var(--padding-sm);
+  text-align: left;
+  font-size: var(--text-single-200-regular-size);
+  color: var(--neutral-colors-600);
+  font-family: var(--paragraph-default);
+}

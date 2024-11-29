@@ -1,0 +1,30 @@
+.start {
+  align-self: stretch;
+  width: 8px;
+  position: relative;
+  border-radius: var(--br-pill);
+}
+.progress,
+.progressBar {
+  border-radius: var(--br-21xl);
+}
+.progress {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: var(--other-shadow-progress-bar);
+  background-color: var(--system-colors-green-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-109xl);
+}
+.progressBar {
+  width: 210px;
+  position: relative;
+  background-color: var(--neutral-colors-300);
+  height: 8px;
+}

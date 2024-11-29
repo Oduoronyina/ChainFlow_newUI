@@ -1,0 +1,35 @@
+.sidebarwebflowIcon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+}
+.linkTitle {
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+}
+.sidebarchevronRightIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dropdownv8 {
+  border-radius: var(--br-29xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  min-width: 244px;
+  min-height: 42px;
+  text-align: left;
+  font-size: var(--text-single-400-medium-size);
+  color: var(--neutral-colors-800);
+  font-family: var(--paragraph-default);
+}

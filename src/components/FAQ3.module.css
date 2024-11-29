@@ -1,0 +1,69 @@
+.title {
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+}
+.leftContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lineRoundedcalendarIcon {
+  height: 14px;
+  width: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+}
+.date {
+  position: relative;
+  line-height: 14px;
+  font-weight: 500;
+}
+.dateWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.detailsWrapper {
+  justify-content: flex-end;
+  gap: var(--gap-xs);
+}
+.detailsWrapper,
+.faq4,
+.rightContent,
+.topContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rightContent {
+  width: 282.1px;
+  justify-content: flex-end;
+  font-size: var(--text-single-200-regular-size);
+  color: var(--neutral-colors-700);
+  font-family: var(--paragraph-default);
+}
+.faq4,
+.topContent {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.faq4 {
+  box-shadow: var(--general-shadow-01);
+  border-radius: var(--br-base);
+  background-color: var(--neutral-colors-100);
+  border: 1px solid var(--neutral-colors-300);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-17xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--neutral-colors-800);
+  font-family: var(--font-blinker);
+}

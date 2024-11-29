@@ -1,0 +1,56 @@
+.icon,
+.iconAirplane {
+  position: absolute;
+  margin: 0 !important;
+}
+.icon {
+  width: 92px;
+  height: 92px;
+  top: 45px;
+  left: 45px;
+  border-radius: 50%;
+  background-color: var(--neutral-colors-100);
+  z-index: 0;
+}
+.iconAirplane {
+  width: 56px;
+  height: 56px;
+  top: 63px;
+  left: 63px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.service2,
+.smartRouting {
+  flex-shrink: 0;
+  position: relative;
+}
+.smartRouting {
+  margin: 0;
+  width: 291px;
+  height: 58px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.service2 {
+  height: 420px;
+  width: 369px;
+  border-radius: var(--br-23xl);
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-278xl) var(--padding-15xl) var(--padding-46xl)
+    var(--padding-26xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--modern-version-text);
+  font-family: var(--font-blinker);
+}

@@ -1,0 +1,30 @@
+.consult {
+  height: 22px;
+  width: 38px;
+  position: relative;
+  font-size: var(--text-single-500-regular-size);
+  font-family: var(--font-blinker);
+  color: var(--neutral-colors-100);
+  text-align: left;
+  display: inline-block;
+}
+.buttonbuttonSm {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-21xl);
+  background-color: var(--modern-version-secondary);
+  position: absolute;
+  top: 540px;
+  left: 74px;
+  border-radius: var(--br-13xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 1261px) {
+  .buttonbuttonSm {
+    display: none;
+  }
+}

@@ -1,0 +1,52 @@
+.lineRoundedsearchIcon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonText {
+  position: relative;
+  font-size: var(--paragraph-default-size);
+  line-height: 16px;
+  font-family: var(--paragraph-default);
+  color: var(--neutral-colors-100);
+  text-align: center;
+}
+.lineRoundedarrowRight {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.root {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-3xl);
+  background-color: var(--modern-version-secondary);
+  align-self: stretch;
+  box-shadow: var(--button-shadows-color-02);
+  border-radius: var(--br-25xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+}
+.root[data-defaultSmall="true"][data-defaultWhite="false"] {
+  border: unset;
+  padding: var(--padding-xs) var(--padding-lg);
+  border-radius: var(--br-21xl);
+  display: none;
+  z-index: 1;
+}
+.root[data-defaultSmall="true"][data-defaultWhite="false"] .buttonText {
+  height: 14px;
+  width: 43px;
+  display: inline-block;
+}
+.root[data-defaultSmall="true"][data-defaultWhite="false"]
+  .lineRoundedarrowRight {
+  display: none;
+}

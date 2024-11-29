@@ -1,0 +1,87 @@
+.photoSquarejohnCarter {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.avatarCircle40px {
+  width: 40px;
+  position: relative;
+  border-radius: var(--br-181xl);
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.name {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.task {
+  position: relative;
+  line-height: 14px;
+  font-weight: 500;
+}
+.progressBarWrapper,
+.progressWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.progressBarWrapper {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+  text-align: right;
+  color: var(--neutral-colors-500);
+}
+.progressWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--text-single-200-regular-size);
+  color: var(--neutral-colors-600);
+}
+.divider,
+.row {
+  align-self: stretch;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.divider {
+  position: relative;
+  border-top: 1px solid var(--neutral-colors-300);
+  box-sizing: border-box;
+  height: 1px;
+}
+.teamProgressRow {
+  width: 446px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--paragraph-default-size);
+  color: var(--neutral-colors-800);
+  font-family: var(--paragraph-default);
+}

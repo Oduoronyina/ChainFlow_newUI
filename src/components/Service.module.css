@@ -1,0 +1,43 @@
+.servicePlaceholders {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.transportLogistics {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.transportLogistics1 {
+  margin: 0;
+  height: 76px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 0;
+}
+.service,
+.text {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-4xl);
+}
+.service {
+  border-radius: var(--br-23xl);
+  background-color: var(--color-whitesmoke-100);
+  height: 276px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-11xl) var(--padding-34xl) var(--padding-80xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--modern-version-text);
+  font-family: var(--font-blinker);
+}

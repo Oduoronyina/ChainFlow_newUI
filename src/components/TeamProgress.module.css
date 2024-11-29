@@ -1,0 +1,49 @@
+.title {
+  position: relative;
+  line-height: 18px;
+}
+.topChart {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.divider {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--neutral-colors-300);
+  box-sizing: border-box;
+  height: 1px;
+}
+.grid1Column,
+.header,
+.teamProgress {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.header {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-9xl);
+}
+.grid1Column,
+.teamProgress {
+  align-items: flex-start;
+  font-size: var(--paragraph-default-size);
+}
+.teamProgress {
+  width: 510px;
+  box-shadow: var(--general-shadow-01);
+  border-radius: var(--br-11xl);
+  background-color: var(--neutral-colors-100);
+  border: 1px solid var(--neutral-colors-300);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-9xl) var(--padding-13xl) var(--padding-13xl);
+  text-align: left;
+  font-size: var(--text-single-400-medium-size);
+  color: var(--neutral-colors-800);
+  font-family: var(--paragraph-default);
+}

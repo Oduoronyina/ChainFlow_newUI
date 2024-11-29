@@ -1,0 +1,19 @@
+.default {
+  position: relative;
+  line-height: 16px;
+}
+.primaryBadge {
+  border-radius: var(--br-21xl);
+  background-color: var(--secondary-colors-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-3xs);
+  box-sizing: border-box;
+  min-height: 34px;
+  text-align: left;
+  font-size: var(--paragraph-default-size);
+  color: var(--modern-version-secondary);
+  font-family: var(--paragraph-default);
+}

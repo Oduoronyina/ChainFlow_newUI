@@ -1,0 +1,62 @@
+.squarecheckIcon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.completedTasks {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+}
+.number,
+.percent {
+  position: relative;
+  line-height: 52px;
+}
+.percent {
+  line-height: 14px;
+  font-weight: 500;
+}
+.lineRoundedarrowExternalRi {
+  width: 10px;
+  position: relative;
+  height: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+}
+.percentWrapper {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 var(--padding-5xs);
+  gap: var(--gap-11xs);
+  font-size: var(--text-single-200-regular-size);
+  color: var(--system-colors-green-300);
+}
+.content,
+.numberWrapper,
+.percentWrapper,
+.stat {
+  display: flex;
+  justify-content: flex-start;
+}
+.numberWrapper {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-11xs);
+  font-size: var(--special-headings-display-3-size);
+  color: var(--neutral-colors-800);
+}
+.content,
+.stat {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.stat {
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--paragraph-default-size);
+  color: var(--neutral-colors-600);
+  font-family: var(--paragraph-default);
+}

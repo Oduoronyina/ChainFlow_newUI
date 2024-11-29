@@ -1,0 +1,53 @@
+.sidebarhomeIcon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+}
+.linkTitle {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  color: inherit;
+}
+.sidebarchevronDownIcon {
+  width: 18px;
+  position: relative;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dropdownv1,
+.linksItems,
+.linksSet {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.linksItems {
+  border-radius: var(--br-29xl);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  min-width: 244px;
+  min-height: 42px;
+}
+.dropdownv1,
+.linksSet {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+  color: var(--neutral-colors-700);
+}
+.dropdownv1 {
+  gap: var(--gap-5xs);
+  min-width: 244px;
+  text-align: left;
+  font-size: var(--text-single-400-medium-size);
+  color: var(--modern-version-secondary);
+  font-family: var(--paragraph-default);
+}

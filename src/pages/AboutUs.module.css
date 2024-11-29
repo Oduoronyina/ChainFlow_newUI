@@ -1,0 +1,243 @@
+.revolutionizingHumanitarianL {
+  width: 338px;
+  position: absolute;
+  margin: 0 !important;
+  top: 200px;
+  right: -38px;
+  line-height: 30px;
+  display: inline-block;
+}
+.containerMockup22x1 {
+  height: 853px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 2;
+}
+.revolutionizingHumanitarian {
+  width: 1047px;
+  margin: 0 !important;
+  position: absolute;
+  top: 125px;
+  left: 632px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.aid {
+  color: var(--color-crimson-200);
+}
+.empoweringHumanitarianAid {
+  margin: 0;
+}
+.empoweringHumanitarianAidContainer {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 130px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.empoweringHumanitarian {
+  width: 1430px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-80xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.getInTouch {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-blinker);
+  color: var(--neutral-colors-100);
+  text-align: left;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xl) var(--padding-42xl);
+  background-color: var(--modern-version-secondary);
+  width: 269px;
+  border-radius: var(--br-33xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.getInTouchButtonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.statsSeparators,
+.yearsExperience {
+  position: relative;
+  font-weight: 600;
+}
+.yearsExperience {
+  font-size: var(--font-size-xl);
+}
+.statsItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--secondary-colors-800);
+}
+.div {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 67px;
+}
+.getInTouchButtonContainer,
+.stats,
+.statsItems1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.getInTouchButtonContainer,
+.stats {
+  gap: var(--gap-xs);
+}
+.getInTouchButtonContainer {
+  gap: var(--gap-28xl);
+}
+.buttonsAndStats,
+.empoweringContainer {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.buttonsAndStats {
+  width: 469px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 88px;
+  box-sizing: border-box;
+  font-size: var(--font-size-45xl);
+}
+.empoweringContainer {
+  width: 1712px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-28xl);
+}
+.aboutUs,
+.content {
+  display: flex;
+  align-items: flex-start;
+  color: var(--modern-version-text);
+  font-family: var(--font-blinker);
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-7xl) 138px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-77xl);
+}
+.aboutUs {
+  width: 100%;
+  position: relative;
+  background-color: var(--neutral-colors-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  font-size: var(--font-size-xl);
+}
+@media screen and (max-width: 1200px) {
+  .empoweringHumanitarian {
+    padding-left: var(--padding-30xl);
+    padding-right: var(--padding-30xl);
+    box-sizing: border-box;
+  }
+  .content {
+    padding-bottom: 90px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .empoweringHumanitarianAidContainer {
+    font-size: var(--font-size-29xl);
+    line-height: 78px;
+  }
+  .div,
+  .statsSeparators {
+    font-size: var(--font-size-32xl);
+  }
+  .content {
+    padding-bottom: 58px;
+    box-sizing: border-box;
+  }
+  .aboutUs {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .empoweringHumanitarian {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .buttonsAndStats {
+    padding-bottom: var(--padding-38xl);
+    box-sizing: border-box;
+  }
+  .empoweringContainer {
+    gap: var(--gap-4xl);
+  }
+  .content {
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .revolutionizingHumanitarianL {
+    font-size: var(--text-single-400-medium-size);
+    line-height: 24px;
+  }
+  .empoweringHumanitarianAidContainer {
+    font-size: var(--font-size-10xl);
+    line-height: 52px;
+  }
+  .statsSeparators {
+    font-size: var(--font-size-19xl);
+  }
+  .yearsExperience {
+    font-size: var(--text-single-400-medium-size);
+  }
+  .div {
+    font-size: var(--font-size-19xl);
+  }
+  .getInTouchButtonContainer {
+    gap: var(--gap-4xl);
+  }
+}

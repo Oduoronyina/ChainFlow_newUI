@@ -1,0 +1,23 @@
+.services {
+  width: 100%;
+  position: relative;
+  background-color: var(--neutral-colors-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 72px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .services {
+    gap: 36px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .services {
+    gap: var(--gap-lg);
+  }
+}

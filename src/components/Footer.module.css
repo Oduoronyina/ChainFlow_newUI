@@ -1,0 +1,144 @@
+.footerChild {
+  width: 769px;
+  height: 494px;
+  position: absolute;
+  margin: 0 !important;
+  top: -308px;
+  right: 51px;
+  z-index: 0;
+}
+.chainflowLogistics {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.tudorMajengo {
+  margin: 0;
+}
+.multimodalLogisticsTradeContainer,
+.siomudovmlogtradecom,
+.websiteLink {
+  width: 376px;
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+}
+.siomudovmlogtradecom,
+.websiteLink {
+  height: 30px;
+  width: 136px;
+  flex-shrink: 0;
+}
+.siomudovmlogtradecom {
+  width: 167px;
+}
+.companyInfo,
+.websiteAddress {
+  height: 30px;
+  width: 426px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-106xl);
+}
+.companyInfo {
+  width: 1461px;
+  height: 60px;
+  gap: var(--gap-640xl);
+  z-index: 2;
+}
+.inTouch {
+  color: var(--neutral-colors-100);
+}
+.getInTouchContainer {
+  margin: 0;
+  height: 99px;
+  width: 481px;
+  position: relative;
+  font-size: inherit;
+  line-height: 99px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.iconArrowOutward {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.footerContact,
+.footerInfo,
+.iconArrowOutwardWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconArrowOutwardWrapper {
+  height: 87px;
+  width: 75px;
+  flex-direction: column;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+}
+.footerContact,
+.footerInfo {
+  z-index: 1;
+}
+.footerContact {
+  width: 595px;
+  height: 99px;
+  flex-direction: row;
+  gap: var(--gap-21xl);
+  font-size: var(--font-size-64xl);
+  color: var(--color-crimson-100);
+}
+.footerInfo {
+  width: 1461px;
+  height: 209px;
+  flex-direction: column;
+  gap: var(--gap-31xl);
+}
+.developedHilliTilsimat,
+.multimodalLogisticsTrade {
+  height: 24px;
+  width: 434px;
+  position: relative;
+  line-height: 24px;
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.developedHilliTilsimat {
+  width: 192px;
+}
+.copyright,
+.footer {
+  width: 720px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-77xl);
+  z-index: 2;
+}
+.footer {
+  width: 1920px;
+  height: 380px;
+  border-radius: var(--br-23xl) var(--br-23xl) 0 0;
+  background-color: var(--modern-version-secondary);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-59xl) var(--padding-181xl) var(--padding-5xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-26xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--neutral-colors-100);
+  font-family: var(--font-blinker);
+}

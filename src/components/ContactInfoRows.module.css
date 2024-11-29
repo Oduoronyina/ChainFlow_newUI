@@ -1,0 +1,71 @@
+.placeholderContact {
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  min-width: 24px;
+}
+.telephonefaxOfSales {
+  position: relative;
+  line-height: 30px;
+  text-align: left;
+}
+.contactInfoItems {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  max-width: 100%;
+}
+.contactValues {
+  position: relative;
+  font-size: var(--font-size-29xl);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.contactInfoColumns,
+.contactInfoRows {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.contactInfoColumns {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.contactInfoRows {
+  border-bottom: 1px solid var(--modern-version-text);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 118px;
+  text-align: right;
+  font-size: var(--font-size-5xl);
+  color: var(--modern-version-text);
+  font-family: var(--font-blinker);
+}
+@media screen and (max-width: 850px) {
+  .contactValues {
+    font-size: var(--font-size-19xl);
+  }
+  .contactInfoColumns {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .placeholderContact,
+  .telephonefaxOfSales {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .contactInfoItems {
+    gap: var(--gap-3xl);
+  }
+  .contactValues {
+    font-size: var(--font-size-10xl);
+  }
+}

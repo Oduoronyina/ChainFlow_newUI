@@ -1,0 +1,139 @@
+.clientsIcon {
+  width: 847px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 3px;
+  bottom: 0;
+  max-height: 100%;
+  object-fit: cover;
+}
+.blockchain {
+  color: var(--color-crimson-100);
+}
+.revolutionizingLogisticsWithContainer {
+  width: 1101px;
+  line-height: 99px;
+  display: inline-block;
+  max-width: 100%;
+}
+.revolutionizingLogisticsWithContainer,
+.tSubtitle {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.getInTouch {
+  height: 24px;
+  width: 177px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-blinker);
+  color: var(--neutral-colors-100);
+  text-align: left;
+  display: inline-block;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xl) var(--padding-42xl);
+  background-color: var(--modern-version-secondary);
+  width: 269px;
+  border-radius: var(--br-33xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.clients,
+.features,
+.subtitleAndButton {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.subtitleAndButton {
+  width: 846px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-27xl);
+  min-height: 253px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+}
+.clients,
+.features {
+  background-color: var(--neutral-colors-100);
+  overflow: hidden;
+}
+.clients {
+  flex: 1;
+  border-radius: var(--br-xs);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-62xl) var(--padding-xl) var(--padding-240xl)
+    var(--padding-47xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-20xl);
+}
+.features {
+  align-self: stretch;
+  height: 765px;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: flex-end;
+  text-align: left;
+  font-size: var(--font-size-61xl);
+  color: var(--modern-version-text);
+  font-family: var(--font-blinker);
+}
+@media screen and (max-width: 1200px) {
+  .clients {
+    padding-left: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .revolutionizingLogisticsWithContainer {
+    font-size: var(--font-size-21xl);
+    line-height: 59px;
+  }
+  .tSubtitle {
+    font-size: var(--font-size-7xl);
+  }
+  .clients {
+    padding-top: var(--padding-34xl);
+    padding-bottom: var(--padding-149xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .clients {
+    gap: var(--gap-lgi);
+  }
+}
+@media screen and (max-width: 450px) {
+  .revolutionizingLogisticsWithContainer {
+    font-size: var(--font-size-5xl);
+    line-height: 40px;
+  }
+  .tSubtitle {
+    font-size: var(--font-size-lgi);
+  }
+  .subtitleAndButton {
+    gap: var(--gap-4xl);
+  }
+  .clients {
+    padding-top: var(--padding-15xl);
+    padding-bottom: var(--padding-90xl);
+    box-sizing: border-box;
+  }
+}
